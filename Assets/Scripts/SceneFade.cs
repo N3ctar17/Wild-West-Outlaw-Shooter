@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -30,14 +29,13 @@ public class SceneFade : MonoBehaviour
 
     private IEnumerator FadeCoroutine(Color startColor, Color targetColor, float duration) {
         float elapsedTime = 0;
-        float elapsedPercentage = 0;
 
-        while(elapsedPercentage < 1) {
-            elapsedPercentage = elapsedTime / duration;
-            _sceneFadeImage.color = Color.Lerp(startColor, targetColor, elapsedPercentage);
-
-            yield return null;
+        while (elapsedTime < duration) {
+            _sceneFadeImage.color = Color.Lerp(startColor, targetColor, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
+            yield return null;
         }
+
+        _sceneFadeImage.color = targetColor;
     }
 }

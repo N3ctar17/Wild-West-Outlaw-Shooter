@@ -14,4 +14,12 @@ public class MainMenu : MonoBehaviour
     public void Exit() {
         Application.Quit();
     }
+
+    public void Back() {
+        _sceneController.LoadScene("Main Menu");
+    }
+
+    public void Controls() {
+        _sceneController.LoadScene("Controls");
+    }
 }

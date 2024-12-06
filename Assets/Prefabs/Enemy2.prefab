@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2674071094273831793
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: _currentHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: _maximumHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4880682330590555127}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartFlash
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: EnemyDamagedFlash, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683465230615476030, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424313, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_Name
+      value: Enemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424317, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424318, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: _playerAwarenessDistance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424319, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: _speed
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404913169424319, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: _rotationSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707404914378811170, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 640257626, guid: 7d3adb32a14f99546a9b2e54d0367f45, type: 3}
+    - target: {fileID: 6180098092254589970, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 52ffc4f74d86c6d4b9d53fd7861a60ec, type: 2}
+    - target: {fileID: 6507363005356861515, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: _killScore
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416918180121408486, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_Radius
+      value: 0.5456681
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416918180121408486, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.29083097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416918180121408486, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.22960286
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245435242970615335, guid: f55a87053db128144a992921bfb272e6, type: 3}
+      propertyPath: _damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f55a87053db128144a992921bfb272e6, type: 3}
+--- !u!1 &40135552922070216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2707404913169424313, guid: f55a87053db128144a992921bfb272e6, type: 3}
+  m_PrefabInstance: {fileID: 2674071094273831793}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3479009399409105730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40135552922070216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab05f24077e14946bac8a9b11980617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4880682330590555127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40135552922070216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0158aee05e4a88c45a5df1c48ab2f054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _flashDuration: 0.2
+  _flashColor: {r: 1, g: 0, b: 0, a: 1}
+  _numberOfFlashes: 1

@@ -15,15 +15,15 @@ public class SceneController : MonoBehaviour
     }
 
     private IEnumerator Start() {
-        yield return _sceneFade.FadeInCoroutine(_sceneFadeDuration);
+        yield return _sceneFade.FadeInCoroutine(_sceneFadeDuration); // Fade in at scene start
     }
 
     public void LoadScene(string sceneName) {
         StartCoroutine(LoadSceneCoroutine(sceneName));
     }
-    
+
     private IEnumerator LoadSceneCoroutine(string sceneName) {
-        yield return _sceneFade.FadeOutCoroutine(_sceneFadeDuration);
-        yield return SceneManager.LoadSceneAsync(sceneName);
+        yield return _sceneFade.FadeOutCoroutine(_sceneFadeDuration); // Fade out before loading next scene
+        yield return SceneManager.LoadSceneAsync(sceneName); // Load next scene
     }
 }
